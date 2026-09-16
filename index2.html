@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaLiga - Real Madrid</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: 
+			url("realmadrid.jpg")
+                no-repeat center center fixed;
+
+            background-size: cover;
+            padding: 40px 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 30px;
+            max-width: 1100px;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.68);
+            flex: 1;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        .card p {
+            color: #26364a;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .card p:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <p>
+                A LaLiga é uma das principais competições de futebol da Europa
+                e reúne clubes tradicionais da Espanha. A competição é conhecida
+                pela qualidade técnica de seus jogadores, pela variedade de
+                estilos de jogo e pela grande rivalidade entre suas equipes.
+            </p>
+
+            <p>
+                Ao longo de sua história, a LaLiga revelou grandes talentos e
+                recebeu alguns dos jogadores mais importantes do futebol mundial.
+                Clubes como Real Madrid, Barcelona e Atlético de Madrid possuem
+                uma forte tradição na competição e protagonizam confrontos
+                bastante acompanhados pelos torcedores.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                O Real Madrid é um dos clubes mais tradicionais do futebol
+                mundial. Fundado em 1902, o time espanhol possui uma história
+                marcada por grandes jogadores, títulos nacionais e conquistas
+                internacionais. Sua camisa branca se tornou um dos símbolos mais
+                conhecidos do esporte.
+            </p>
+
+            <p>
+                O clube disputa seus jogos no Estádio Santiago Bernabéu, em
+                Madrid. Ao longo das décadas, jogadores de diferentes gerações
+                ajudaram a construir a identidade do Real Madrid, que mantém uma
+                relação histórica com a LaLiga e com o futebol europeu.
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
