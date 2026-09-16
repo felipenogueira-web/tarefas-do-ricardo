@@ -1,2 +1,87 @@
-# tarefas-do-ricardo
-Repositório para armazenar e enviar as atividades do professor Ricardo Boaventura
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundesliga - Bayern de Munique</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 20px;
+
+            font-family: Arial, sans-serif;
+
+            background: linear-gradient(
+                135deg,
+                #536d82,
+                #9fa8b5
+            );
+        }
+
+        .texto {
+            width: 100%;
+            max-width: 800px;
+            padding: 40px 50px;
+
+            background: #fffdf9;
+
+            border: 3px solid #e5e5e5;
+            border-radius: 22px;
+
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            color: #bd596d;
+            font-size: 15px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        p + p {
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="texto">
+
+        <p>
+            A Bundesliga é uma das principais competições de futebol da Europa.
+            Conhecida pela intensidade das partidas e pelo apoio apaixonado dos
+            torcedores, a liga reúne clubes tradicionais da Alemanha e revela
+            grandes jogadores ao longo de sua história.
+        </p>
+
+        <p>
+            O Bayern de Munique é um dos clubes mais conhecidos do futebol
+            alemão. Fundado em 1900, o time possui uma história marcada por
+            grandes conquistas, jogadores de destaque e uma forte identidade
+            dentro e fora dos gramados. Sua camisa vermelha se tornou um dos
+            símbolos mais reconhecidos da Bundesliga.
+        </p>
+
+        <p>
+            Ao longo das temporadas, o Bayern construiu uma rivalidade esportiva
+            com diversos clubes alemães. Os confrontos contra equipes como
+            Borussia Dortmund, Bayer Leverkusen e Schalke 04 fazem parte da
+            tradição do futebol do país e ajudam a tornar a Bundesliga uma
+            competição bastante acompanhada pelos fãs do esporte.
+        </p>
+
+    </section>
+
+</body>
+</html>
